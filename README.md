@@ -8,7 +8,7 @@ This project follows a complete academic workflow including website development,
 
 ## Live Website
 🔗 GitHub Pages:  
-https://faran-sultan.github.io/DriveEase-CarRentalService/index.html
+https://faran-sultan.github.io/GroupD-Car-Rental-Service/
 
 ## Technologies Used
 - HTML5  
@@ -27,7 +27,7 @@ https://faran-sultan.github.io/DriveEase-CarRentalService/index.html
   [DriveEase_Presentation.pptx](docs/DriveEase_Presentation.pptx)
 
 - **Project Video (MP4):**  
-
+  [DriveEase_Video.mp4](docs/DriveEase_Video.mp4)
 
 
 - **Website Screenshots:**  
