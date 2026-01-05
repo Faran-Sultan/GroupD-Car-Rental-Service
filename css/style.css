@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1b2a;
+    padding: 15px 40px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+nav a {
+    color: #fff;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e09f3e;
+    font-style: italic;
+}
+
+.breadcrumb {
+    background-color: #ffffff;
+    padding: 10px 40px;
+    font-size: 14px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #0d1b2a;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #555;
+}
+
+
+.hero {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    padding: 80px 20px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 135px;
+    color: white;
+    position: relative;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #e09f3e;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #e09f3e;
+}
+
+.hero2 {
+    text-align: center;
+    padding-top: 55px;
+    ;
+}
+
+.hero2 .btn {
+    display: inline-block;
+    padding: 20px 45px;
+    background-color: #e09f3e;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.hero2 .btn:hover {
+    background-color: #000000;
+    color: #e09f3e;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    border: solid #0d1b2a 1px;
+}
+
+.car-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.car-feature {
+    margin: 30px;
+    background: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    border: solid #0d1b2a 1px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.content ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.catalog-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.catalog-header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0b1f33;
+}
+
+.catalog-header p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 16px;
+}
+
+.accent-line {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #f0b13e;
+    margin: 20px auto 0;
+    border-radius: 2px;
+}
+
+
+.gallery {
+    padding: 40px;
+    text-align: center;
+}
+
+.gallery-grid {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery-grid img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+
+.gallery-grid a {
+    text-decoration: none;
+    color: inherit;
+    margin-top: 10px;
+    color: #0d1b2a;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+.gallery-grid a:hover {
+    text-decoration: none;
+
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.car-content {
+    text-align: center;
+}
+
+.car-content img {
+    width: 300px;
+    border-radius: 8px;
+
+}
+
+.economy-content h2 {
+    margin-top: 15px;
+}
+
+.sub-car-content {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sub-car-content h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.sub-car-content img {
+    width: 250px;
+    border-radius: 8px;
+    margin: 10px;
+    border: solid #e2e2e2 1px;
+}
+
+.car-content img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sub-car-content h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0d1b2a;
+    color: white;
+    margin-top: 40px;
+}
+
+.booking-form {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.booking-form form {
+    background: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid #e09f3e;
+}
+
+.booking-form label {
+    font-weight: bold;
+    color: #0d1b2a;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.booking-form input,
+.booking-form select {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    margin-bottom: 18px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.booking-form input:focus,
+.booking-form select:focus {
+    outline: none;
+    border-color: #e09f3e;
+    box-shadow: 0 0 0 2px rgba(224, 159, 62, 0.2);
+}
+
+.booking-form input[type="submit"] {
+    background-color: #e09f3e;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+    max-width: 350px;
+    display: block;
+    margin: 20px auto;
+    
+}
+
+.booking-form input[type="submit"]:hover {
+    background-color: #000;
+    color: #e09f3e;
+    transform: translateY(-5px);
+}
+
+.booking-form label::after {
+    content: "*";
+    color: red;
+}
+.sub-car-content .back-home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #e09f3e;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sub-car-content .back-home-button:hover {
+    background-color: #000000;
+    color: #e09f3e;
+}
+.sub-car-content p {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #555;
+    line-height: 1.6;
+}
